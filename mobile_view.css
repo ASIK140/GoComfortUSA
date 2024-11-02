@@ -1,0 +1,69 @@
+@media (width<700px) {
+    .nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    #menu_icon{
+        display: inline;
+      }
+      #hero section h1{
+        font-size: 3.6vmax;
+      }
+      #offer_more section{
+        flex-direction: column-reverse;
+       
+      }
+      .offer_left button{
+        width: 100%;
+      }
+      .offer_left h3{
+        font-size: 2.4vmax;
+      }
+      .offer_left button{
+        padding: 1.4vmax 0;
+      }
+      .offer_left span{
+        font-size: 1.6vmax;
+        text-align: justify;
+      }
+      .offer_right img {
+        width: 90%;
+        height: 50vh;
+        object-fit: cover;
+      }
+      #offer_more .rev{
+        flex-direction: column;
+      }
+      .cstmr_review {
+        height: 115vh;
+      }
+      .wrapper section{
+        flex-direction: column;
+        width: calc(100vw - 8vmax);
+        justify-content: center;
+        align-items: center;
+      }
+      .review p{
+        font-size: 1.7vmax;
+        text-align: center;
+      }
+      .footer-container{
+        flex-direction: column;
+        gap: 5vmax;
+      }
+      .contact_form {
+        height: 90vh;
+      }
+      .contact_form form{
+        width: 100%;
+        gap: 3vmax;
+      }
+      .contact_form form section {
+        gap: 5px;
+      }
+      .box{
+        width: inherit;
+      }
+}
