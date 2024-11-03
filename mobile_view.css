@@ -66,4 +66,10 @@
       .box{
         width: inherit;
       }
+      #booking_form  form{
+        width: 100%;
+      }
+      #booking_form  form input{
+        height: 2.5vmax;
+      }
 }
