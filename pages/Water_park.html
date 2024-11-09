@@ -13,40 +13,94 @@
 </head>
 <body>
     <div id="main">
-      <div id="booking_form" class="book_form opne_form">
-        <form action="">
+      <div id="booking_form" class="hotel ">
+        <form action="" id="myForm">
           <i id="form_close" class="fa-solid fa-square-xmark"></i>
-          <h1>Submit Your Details</h1>
-          <section>
-            <label for="">Full Name</label>
-            <input type="text">
+          <h1>Booking Details</h1>
+          <section style="display: flex">
+            <section>
+              <label for="">Date of Visit</label>
+              <input type="date" name="DepartureDate" />
+            </section>
+          </section>
+          </section>
+          <section style="display: flex">
+            <section>
+              <label for="">Number of Tickets</label>
+              <input id="adult" name="NumberOfTicket" type="text" />
+            </section>
+            <section>
+              <label for="">Type of Tickets</label>
+              <input id="child" name="TypeOfTicket" type="text" />
+            </section>
+          </section>
+          <section style="display: flex; flex-wrap: wrap">
+            <section>
+              <label for="">Park Address</label>
+              <input type="text" name="HotelAddress" />
+            </section>
+            <section>
+              <label for="">City</label>
+              <input type="text" name="City" />
+            </section>
+            <section>
+              <label for="">State</label>
+              <input type="text" name="State" />
+            </section>
+            <section>
+              <label for="">Zip Code</label>
+              <input type="text" name="ZipCode" />
+            </section>
+          </section>
+          <section style="display: flex">
+            <section>
+              <label for="">Number of Adults</label>
+              <input id="adult" name="NumberOfAdults" type="text" />
+            </section>
+            <section>
+              <label for="">Number of Children</label>
+              <input id="child" name="NumberOfchildren" type="text" />
+            </section>
+          </section>
+          <section style="display: flex;">
+            <section>
+              <label for="">Adults Name</label>
+              <input
+                type="text"
+                placeholder="Name1,Name2.."
+                name="adult_names"
+              />
+            </section>
+            <section>
+              <label for="">Children Name</label>
+              <input
+                type="text"
+                placeholder="Name1,Name2.."
+                name="child_names"
+              />
+            </section>
+          </section>
+
+          <section style="display: flex">
+            <section>
+              <label for="">Phone Nummber</label>
+              <input name="Phone" type="text" />
+            </section>
+            <section>
+              <label for="">Email</label>
+              <input name="Email" type="text" />
+            </section>
           </section>
           <section>
-            <label for="">Phone Number</label>
-            <input type="text">
+            <label for="">Message</label>
+            <textarea
+              style="outline: none; padding: 5px; width: 100%"
+              name="Message"
+              placeholder="Enter Your Message.."
+              rows="10"
+            ></textarea>
           </section>
-          <section>
-            <label for="">Email</label>
-            <input type="email">
-          </section>
-          <section>
-            <label for="">Address</label>
-            <input type="text">
-          </section>
-  
-          <section>
-            <label for="">City</label>
-            <input type="text">
-          </section>
-          <section>
-            <label for="">State</label>
-            <input type="text">
-          </section>
-          <section>
-            <label for="">Zip Code</label>
-            <input type="text">
-          </section>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
 <!-- Header Section -->

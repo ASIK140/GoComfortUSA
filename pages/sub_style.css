@@ -61,43 +61,50 @@
     color: #253b56;
     
 }
-.book_form{
+.hotel{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99999;
-    min-height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
+    display: none;
 }
-.book_form form{
+.hotel form{
     background-color: #fff;
     padding: 1.5vmax 3vmax;
     border-radius: 10px;
-    width: 25%;
+    width: 30%;
     position: relative;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
 }
-.book_form form h1{
+.hotel form select{
+    height: 2.4vmax;
+    outline: none;
+    margin-bottom: 1vmax;
+    
+}
+.hotel form h1{
     font-size: 1.8vmax;
     margin-bottom: 0.7vmax;
     text-align: center;
 }
-.book_form form section label{
+.hotel form section label{
     display: block;
     font-size: 1.2vmax;
 }
-.book_form form section input{
-    width: 100%;
+.hotel form section input{
     height: 2vmax;
     margin-bottom: 1vmax;
     padding:0 5px;
     outline: none;
+    margin-right: 1vmax;
 }
-.book_form form button{
+.hotel form button{
     width: 100%;
     padding: 0.8vmax 0;
     border: none;
@@ -108,7 +115,7 @@
     transition: all 0.3s;
     cursor: pointer;
 }
-.book_form form button:hover{
+.hotel form button:hover{
     background-color: #07acdf;
 
 }
@@ -121,5 +128,8 @@
     color: red;
 }
 .opne_form{
-    display:none;
+    display:flex;
+}
+.hotel form{
+    width: 70%;
 }
