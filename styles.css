@@ -57,7 +57,7 @@ body{
 .nav ul li {
   list-style: none;
   position: relative;
-
+  cursor: pointer;
   padding: 0 15px;
   text-align: center;
 }
