@@ -13,40 +13,59 @@
 </head>
 <body>
     <div id="main">
-      <div id="booking_form" class="book_form ">
-        <form action="">
+      <div id="booking_form" class="hotel ">
+        <form action="" id="myForm">
           <i id="form_close" class="fa-solid fa-square-xmark"></i>
-          <h1>Submit Your Details</h1>
-          <section>
-            <label for="">Full Name</label>
-            <input type="text">
+          <h1>Booking Details</h1>
+          <section style="display: flex">
+            <section>
+              <label for="">Full Name</label>
+              <input type="text" name="name" />
+            </section>
+            <section>
+              <label for="">Billing Number</label>
+              <input type="text" name="billNumber" />
+            </section>
+          </section>
+          </section>
+          <section style="display: flex">
+            <section>
+              <label for="">Phone Nummber</label>
+              <input name="Phone" type="text" />
+            </section>
+            <section>
+              <label for="">Email</label>
+              <input name="Email" type="text" />
+            </section>
+          </section>
+          <section style="display: flex; flex-wrap: wrap">
+            <section>
+              <label for="">Address</label>
+              <input type="text" name="HotelAddress" />
+            </section>
+            <section>
+              <label for="">City</label>
+              <input type="text" name="City" />
+            </section>
+            <section>
+              <label for="">State</label>
+              <input type="text" name="State" />
+            </section>
+            <section>
+              <label for="">Zip Code</label>
+              <input type="text" name="ZipCode" />
+            </section>
           </section>
           <section>
-            <label for="">Phone Number</label>
-            <input type="text">
+            <label for="">Other Information</label>
+            <textarea
+              style="outline: none; padding: 5px; width: 100%"
+              name="Message"
+              placeholder="Enter Your Information.."
+              rows="10"
+            ></textarea>
           </section>
-          <section>
-            <label for="">Email</label>
-            <input type="email">
-          </section>
-          <section>
-            <label for="">Address</label>
-            <input type="text">
-          </section>
-  
-          <section>
-            <label for="">City</label>
-            <input type="text">
-          </section>
-          <section>
-            <label for="">State</label>
-            <input type="text">
-          </section>
-          <section>
-            <label for="">Zip Code</label>
-            <input type="text">
-          </section>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
 <!-- Header Section -->
@@ -427,13 +446,13 @@
                 <div class="footer-section links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Tickets & Parks</a></li>
-                        <li><a href="#">Bill & Payments</a></li>
-                        <li><a href="#">Travel</a></li>
-                        <li><a href="#">Food & Grocery</a></li>
-    
-                    </ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="Water_park.html">Tickets & Parks</a></li>
+                      <li><a href="Utility_Bill.html">Bill & Payments</a></li>
+                      <li><a href="Hotel.html">Travel</a></li>
+                      <li><a href="Food_Order.html">Food & Grocery</a></li>
+  
+                  </ul>
                 </div>
                 <div class="footer-section contact">
                     <h3>Contact Us</h3>
@@ -444,7 +463,7 @@
                       <div class="icon" id="x"><i class="fa-brands fa-square-x-twitter"></i></div>
                     </div>
                     <p>Email: support@gocomfortusa.com</p>
-                    <p>Phone: +1 234 567 890</p>
+                    <p>Phone: +1 437 849 7841</p>
                 </div>
             </div>
             <div class="footer-bottom">
