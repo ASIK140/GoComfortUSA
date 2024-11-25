@@ -15,12 +15,13 @@
     <div id="main">
       <div id="booking_form" class="hotel">
         <form action="" id="myForm">
+          <input type="text" name="formType" value="Adventure" style="display: none;">
           <i id="form_close" class="fa-solid fa-square-xmark"></i>
           <h1>Booking Details</h1>
           <section style="display: flex">
             <section>
               <label for="">Date of Visit</label>
-              <input type="date" name="DepartureDate" />
+              <input type="date" name="DateOfVisit" />
             </section>
           </section>
           </section>
@@ -100,7 +101,7 @@
               rows="10"
             ></textarea>
           </section>
-          <button type="submit">Submit</button>
+          <button id="sub_btn" type="submit">Submit</button>
         </form>
       </div>
 <!-- Header Section -->
@@ -131,7 +132,7 @@
                       </li>
                       <li><a href="Apart_Rent.html">Apart Rent</a></li>
                       <li><a href="Utility_Bill.html">Utility Bill</a></li>
-                      <li><a href="Car_Insurance.html">Car Insurace</a></li>
+                      <li><a href="Car_Insurance.html">Car Insurance</a></li>
                       <li><a href="Electricity.html">Electricity</a></li>
                       <li><a href="Gas.html">Gas</a></li>
                     </ul>
@@ -221,7 +222,7 @@
                       <li><a href="House_Rent.html">House Rent</a></li>
                       <li><a href="Apart_Rent.html">Apart Rent</a></li>
                       <li><a href="Utility_Bill.html">Utility Bill</a></li>
-                      <li><a href="Car_Insurance.html">Car Insurace</a></li>
+                      <li><a href="Car_Insurance.html">Car Insurance</a></li>
                       <li><a href="Electricity.html">Electricity</a></li>
                       <li><a href="Gas.html">Gas</a>
                       </li>
@@ -513,6 +514,7 @@ crossorigin="anonymous"
 ></script>
 <script src="../script/script.js"></script>
 <script src="script.js"></script>
+<script src="./formSubmit.js"></script>
 <script src="../script/review_scroll.js"></script>
 
 </html>
